@@ -1,0 +1,61 @@
+2020-04-23 20:17:30.026  INFO 7832 --- [main] c.c.f.e.EventprocessorApplicationTests   : Starting EventprocessorApplicationTests on LAPTOP-MP9EJGLU with PID 7832 (started by barat in C:\bharathi\projects\eventprocessor)
+2020-04-23 20:17:30.029  INFO 7832 --- [main] c.c.f.e.EventprocessorApplicationTests   : No active profile set, falling back to default profiles: default
+2020-04-23 20:17:31.015  INFO 7832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-23 20:17:31.149  INFO 7832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115ms. Found 3 JPA repository interfaces.
+2020-04-23 20:17:31.977  INFO 7832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-23 20:17:33.158  INFO 7832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-23 20:17:33.737  INFO 7832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-23 20:17:33.895  INFO 7832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-23 20:17:34.138  INFO 7832 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-23 20:17:34.388  INFO 7832 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-04-23 20:17:35.550  INFO 7832 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-23 20:17:35.563  INFO 7832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-23 20:17:36.573  WARN 7832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-23 20:17:36.931  INFO 7832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-23 20:17:37.618  WARN 7832 --- [main] o.s.b.a.batch.JpaBatchConfigurer         : JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2020-04-23 20:17:37.623  INFO 7832 --- [main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: MYSQL
+2020-04-23 20:17:37.660  INFO 7832 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2020-04-23 20:17:37.844  INFO 7832 --- [main] c.c.f.e.EventprocessorApplicationTests   : Started EventprocessorApplicationTests in 8.199 seconds (JVM running for 9.707)
+2020-04-23 20:17:38.072  INFO 7832 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-23 20:17:38.075  INFO 7832 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-23 20:17:38.080  INFO 7832 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-23 20:17:38.097  INFO 7832 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-23 20:17:51.441  INFO 8432 --- [main] c.c.f.e.EventprocessorApplication        : Starting EventprocessorApplication on LAPTOP-MP9EJGLU with PID 8432 (C:\bharathi\projects\eventprocessor\target\classes started by barat in C:\bharathi\projects\eventprocessor)
+2020-04-23 20:17:51.444  INFO 8432 --- [main] c.c.f.e.EventprocessorApplication        : No active profile set, falling back to default profiles: default
+2020-04-23 20:17:52.252  INFO 8432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-23 20:17:52.412  INFO 8432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140ms. Found 3 JPA repository interfaces.
+2020-04-23 20:17:53.056  INFO 8432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-23 20:17:53.067  INFO 8432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-23 20:17:53.067  INFO 8432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-23 20:17:53.168  INFO 8432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-23 20:17:53.168  INFO 8432 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1680 ms
+2020-04-23 20:17:53.265  INFO 8432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-23 20:17:53.993  INFO 8432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-23 20:17:54.702  INFO 8432 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-23 20:17:54.894  INFO 8432 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-23 20:17:55.047  INFO 8432 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-23 20:17:55.179  INFO 8432 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-04-23 20:17:55.924  INFO 8432 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-23 20:17:55.934  INFO 8432 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-23 20:17:56.342  WARN 8432 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-23 20:17:56.465  INFO 8432 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-23 20:17:56.644  WARN 8432 --- [main] o.s.b.a.batch.JpaBatchConfigurer         : JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2020-04-23 20:17:56.647  INFO 8432 --- [main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: MYSQL
+2020-04-23 20:17:56.663  INFO 8432 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2020-04-23 20:17:56.777  INFO 8432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-23 20:17:56.779  INFO 8432 --- [main] c.c.f.e.EventprocessorApplication        : Started EventprocessorApplication in 5.767 seconds (JVM running for 6.697)
+2020-04-23 20:18:17.618  INFO 8432 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-23 20:18:17.620  INFO 8432 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-23 20:18:17.650  INFO 8432 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2020-04-23 20:18:17.935  INFO 8432 --- [http-nio-8081-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=eventProcessorJob]] launched with the following parameters: [{JobID=1587653297727}]
+2020-04-23 20:18:18.068  INFO 8432 --- [http-nio-8081-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [event-summary-file-to-db]
+2020-04-23 20:18:18.371  INFO 8432 --- [http-nio-8081-exec-1] o.s.batch.core.step.AbstractStep         : Step: [event-summary-file-to-db] executed in 302ms
+2020-04-23 20:18:18.424  INFO 8432 --- [http-nio-8081-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [event-info-file-to-db]
+2020-04-23 20:18:18.516  INFO 8432 --- [http-nio-8081-exec-1] o.s.batch.core.step.AbstractStep         : Step: [event-info-file-to-db] executed in 91ms
+2020-04-23 20:18:18.532  INFO 8432 --- [http-nio-8081-exec-1] c.c.f.e.batch.EventProcessorJob          : BATCH JOB COMPLETED SUCCESSFULLY
+2020-04-23 20:18:18.545  INFO 8432 --- [http-nio-8081-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=eventProcessorJob]] completed with the following parameters: [{JobID=1587653297727}] and the following status: [COMPLETED] in 539ms
+2020-04-23 20:19:50.390  INFO 8432 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-23 20:19:50.395  INFO 8432 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-23 20:19:50.397  INFO 8432 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-23 20:19:50.402  INFO 8432 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-23 20:19:50.409  INFO 8432 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
